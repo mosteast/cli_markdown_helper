@@ -22,8 +22,8 @@ export default class AddSpaceAroundCode extends Command {
     const content = readFileSync(file, 'utf8')
 
     const result = content
-      .replace(/(?<!\s)(?:`(<?\w+>?)`|``(<?\w+>?)``)/g, ' `$1`')
-      .replace(/(?:`(<?\w+>?)`|``(<?\w+>?)``)(?!\s)/g, '`$1` ')
+      .replace(/(?<![\s\*\-`_])(?:`(<?\w+>?)`|``(<?\w+>?)``)/g, ' `$1`')
+      .replace(/(?:`(<?\w+>?)`|``(<?\w+>?)``)(?![\s\*\-`_])/g, '`$1` ')
 
     writeFileSync(file, result, 'utf8')
   }
