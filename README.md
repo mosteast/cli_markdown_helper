@@ -19,7 +19,7 @@ $ npm install -g @mosteast/cli_markdown_helper
 $ cli_markdown_helper COMMAND
 running command...
 $ cli_markdown_helper (-v|--version|version)
-@mosteast/cli_markdown_helper/0.0.1 darwin-x64 node-v12.14.0
+@mosteast/cli_markdown_helper/1.0.0 darwin-x64 node-v12.14.0
 $ cli_markdown_helper --help [COMMAND]
 USAGE
   $ cli_markdown_helper COMMAND
@@ -43,7 +43,7 @@ OPTIONS
   -h, --help  show CLI help
 ```
 
-_See code: [src/commands/add_space_around_code.ts](https://github.com/mosteast/cli_markdown_helper/blob/v0.0.1/src/commands/add_space_around_code.ts)_
+_See code: [src/commands/add_space_around_code.ts](https://github.com/mosteast/cli_markdown_helper/blob/v1.0.0/src/commands/add_space_around_code.ts)_
 
 ## `cli_markdown_helper help [COMMAND]`
 
