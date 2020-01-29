@@ -1,7 +1,7 @@
 {
   "name": "@mosteast/cli_markdown_helper",
   "description": "Helper for markdown writer.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "kev",
   "bin": {
     "cli_markdown_helper": "./bin/run"

@@ -19,7 +19,7 @@ $ npm install -g @mosteast/cli_markdown_helper
 $ cli_markdown_helper COMMAND
 running command...
 $ cli_markdown_helper (-v|--version|version)
-@mosteast/cli_markdown_helper/0.0.0 darwin-x64 node-v12.14.0
+@mosteast/cli_markdown_helper/0.0.1 darwin-x64 node-v12.14.0
 $ cli_markdown_helper --help [COMMAND]
 USAGE
   $ cli_markdown_helper COMMAND
@@ -28,45 +28,22 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`cli_markdown_helper add_space_around_code_from_chinese [FILE]`](#cli_markdown_helper-add_space_around_code_from_chinese-file)
-* [`cli_markdown_helper hello [FILE]`](#cli_markdown_helper-hello-file)
+* [`cli_markdown_helper add_space_around_code FILE`](#cli_markdown_helper-add_space_around_code-file)
 * [`cli_markdown_helper help [COMMAND]`](#cli_markdown_helper-help-command)
 
-## `cli_markdown_helper add_space_around_code_from_chinese [FILE]`
+## `cli_markdown_helper add_space_around_code FILE`
 
 describe the command here
 
 ```
 USAGE
-  $ cli_markdown_helper add_space_around_code_from_chinese [FILE]
+  $ cli_markdown_helper add_space_around_code FILE
 
 OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
+  -h, --help  show CLI help
 ```
 
-_See code: [src/commands/add_space_around_code_from_chinese.ts](https://github.com/mosteast/cli_markdown_helper/blob/v0.0.0/src/commands/add_space_around_code_from_chinese.ts)_
-
-## `cli_markdown_helper hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ cli_markdown_helper hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ cli_markdown_helper hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src/commands/hello.ts](https://github.com/mosteast/cli_markdown_helper/blob/v0.0.0/src/commands/hello.ts)_
+_See code: [src/commands/add_space_around_code.ts](https://github.com/mosteast/cli_markdown_helper/blob/v0.0.1/src/commands/add_space_around_code.ts)_
 
 ## `cli_markdown_helper help [COMMAND]`
 
